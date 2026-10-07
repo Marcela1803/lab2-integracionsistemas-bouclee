@@ -10,6 +10,17 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg p-6">
                 <form method="POST" action="{{ route('pedidos.store') }}">
                     @csrf
+                    <!-- Mensajes de Error de Validación -->
+@if ($errors->any())
+    <div class="mb-4 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative">
+        <strong class="font-bold">¡Atención con los datos!</strong>
+        <ul class="mt-2 list-disc list-inside text-sm">
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
                     <div class="mb-4">
                         <label class="block text-gray-700 text-sm font-bold mb-2">Cliente</label>
                         <input type="text" name="cliente" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
