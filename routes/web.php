@@ -9,7 +9,7 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+  return redirect()->route('pedidos.index');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
@@ -20,3 +20,4 @@ Route::middleware('auth')->group(function () {
     });
 
 require __DIR__.'/auth.php';
+
