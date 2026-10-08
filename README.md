@@ -1,12 +1,12 @@
-Laboratorio II - Integración de Sistemas
+                                        LABORATORIO II - INTEGRACIÓN DE SISTEMAS
+
 Información del Equipo
 Nombre del Equipo: Bouclée
-Integrantes y Coevaluación de Participación
-Cada integrante ha sido evaluado en una escala independiente del 0% al 100% respecto a su aporte en el desarrollo de este laboratorio.
+Integrantes y Coevaluación de Participación:
 
 Adriana Marcela Hernández Recinos — carnet HR-64876-23 — 100%
 
-Descripción del Proyecto
+                                                DESCRIPCIÓN DEL PROYECTO
 
 Este proyecto es la evolución del sistema de gestión administrativa para la pastelería Bouclée. En este Laboratorio II, el sistema original construido con PHP nativo ha sido exitosamente migrado utilizando Laravel 11.
 
