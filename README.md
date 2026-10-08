@@ -47,7 +47,7 @@ La aplicación estará disponible en http://localhost:8000.
 
 NOTA: Uso de Herramientas de IA.
 
-La herramienta funcionó como soporte técnico y tutor interactivo para la estructuración del código en la arquitectura MVC de Laravel, la traducción de consultas PDO a Eloquent ORM, y la depuración de errores durante el acoplamiento de las vistas Blade y el enrutamiento.
+La herramienta funcionó como soporte técnico para la depuración de errores durante el acoplamiento de las vistas Blade y el enrutamiento.
 
 Validación de resultados:
-Ningún código generado fue implementado directamente sin revisión. Todos los fragmentos y sugerencias estructurales fueron analizados, adaptados a la lógica de negocio específica de la pastelería Bouclée y validados mediante pruebas de ejecución local en el servidor de pruebas para garantizar el cumplimiento estricto de los requerimientos de la rúbrica.
+Ningún código generado fue implementado directamente sin revisión. Todos los fragmentos y sugerencias estructurales fueron analizados, adaptados a la lógica de negocio y validados mediante pruebas de ejecución local en el servidor de pruebas para garantizar el cumplimiento estricto de los requerimientos de la rúbrica.
