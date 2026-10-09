@@ -4,7 +4,7 @@
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
                 {{ __('Tablero de Encargos - Bouclée') }}
             </h2>
-            <a href="{{ route('pedidos.create') }}" class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded shadow">
+           <a href="{{ route('pedidos.create') }}" class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 font-bold transition">
                 + Nuevo Pedido
             </a>
         </div>
